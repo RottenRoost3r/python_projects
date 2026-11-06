@@ -5,3 +5,10 @@ print ("lets make a pizza...")
 print ("what kind of crust do you want?")
 for item in crusts:
 	print (item)
+c_choice = input("what kind of crust do you want?")
+for item in toppings:
+	print (item)
+t_choice = input("please pick one topping")
+
+print ("so that's,",c_choice,"crust, and ",t_choice,"on top")
+
