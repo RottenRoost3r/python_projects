@@ -9,11 +9,9 @@ for item in crusts:
 c_choice = input("what kind of crust do you want?")
 
 
-while c_choice != "thin" or "deep" or "regular" or "stuffed":
+while c_choice not in crusts:
 		print ("hey, that's not on the list")
-		c_choice = input("what kind of crust do you want?")
-		if c_choice == "thin" or "deep" or "regular" or "stuffed":
-			break
+		c_choice = input("what kind of crust do you want")
 for item in toppings:
 	print (item)
 t_choice = input("please pick one topping")
